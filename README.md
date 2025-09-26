@@ -24,6 +24,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+
+
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
@@ -71,3 +73,72 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Project URL
 https://bookfindervijay.netlify.app/
+
+
+# Book Finder
+
+A simple React application to search for books by title using the Open Library API. This app provides quick, visual search results with book covers, authors, and publish years.
+
+## Features
+
+- Search books by title using Open Library public API (no authentication required).
+- Paginated results with "Load More" button.
+- Responsive and clean UI using plain CSS.
+- Error handling for empty input and network failures.
+- Displays book cover, title, author(s), publish year, description, and subjects inline.
+- No popup modals—details shown directly in result cards.
+
+## Technologies Used
+
+- React (with hooks)
+- Plain CSS for styling
+- Open Library API for book data
+- Create React App for build tooling and project scaffolding
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+1. Clone the repo:
+2. Change to project directory:
+3. Install dependencies:
+
+
+
+The build is optimized and ready to be deployed.
+
+## Deployment
+
+The app is deployed live at: https://bookfindervijay.netlify.app/
+
+You can deploy the production `build` folder to hosting services like Netlify, Vercel, or GitHub Pages.
+
+## Folder Structure Overview
+
+- `src/` — React source files and components.
+- `public/` — Public assets, HTML template, manifest, favicon.
+- `README.md` — This documentation.
+- `package.json` — Project dependencies and scripts.
+
+## Troubleshooting
+
+- If you encounter build errors related to minification, check React docs for troubleshooting [here](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
+- Ensure network connectivity for fetching data from Open Library API.
+
+## License
+
+This project is provided as-is without warranties.
+
+## Contact
+
+For questions or feedback, please contact the author via GitHub.
+
+---
+
+Thank you for exploring the Book Finder app!
+
+
